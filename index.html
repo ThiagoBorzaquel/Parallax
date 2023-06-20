@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style type="text/css">
+
+        /*** configurações padrão da página ***/
+        html {
+            height: 100%;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font: 16px "lato", sans-serif;
+            color: #777;    
+        }
+
+        .conteudo{
+            color: #777;
+            background: white;
+            text-align: justify;
+            padding: 50px 80px;
+        }
+
+        h3 {
+            color: #111;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        /*** Efetos Parallax ***/
+        .caixa1 , .caixa2, .caixa3, .caixa4 {
+            position: relative;
+            height: 100%;
+            opacity: 0.5;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .caixa1 {
+            background-image: url(img/imagem1.jpg);
+        }
+
+        .caixa2 {
+            background-image: url(img/imagem2.jpg);
+        }
+
+        .caixa3 {
+            background-image: url(img/imagem3.jpg);
+        }
+
+        .caixa4 {
+            background-image: url(img/imagem4.jpg);
+        }
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0%;
+            top: 45%;
+            width: 100%;
+            text-align: center;
+            
+        }
+
+        .conteudo-titulo span.titulo {
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">passeio de balões</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis urna ipsum, vel congue neque maximus vel. 
+            Integer elementum sem sed odio suscipit ultrices et ut magna. 
+            Pellentesque a libero ac leo sollicitudin ullamcorper. 
+            Curabitur vitae pellentesque leo, in varius mi. Ut porttitor justo sit amet neque egestas, vel fermentum nisi euismod. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Sed ultrices dui tellus, et vestibulum odio molestie id. Nullam sem erat, tristique id metus quis, rutrum luctus nunc. 
+            Ut hendrerit, justo eget mattis ornare, diam enim consequat mauris, eget consectetur orci purus eget nisl. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Nam lobortis turpis arcu, at sagittis diam gravida et. 
+            Praesent imperdiet erat nec nisi aliquet, in rhoncus turpis lacinia. Vivamus ac metus magna. 
+            Maecenas eu mattis tortor, id fermentum libero.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis urna ipsum, vel congue neque maximus vel. 
+            Integer elementum sem sed odio suscipit ultrices et ut magna. 
+            Pellentesque a libero ac leo sollicitudin ullamcorper. 
+            Curabitur vitae pellentesque leo, in varius mi. Ut porttitor justo sit amet neque egestas, vel fermentum nisi euismod. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Sed ultrices dui tellus, et vestibulum odio molestie id. Nullam sem erat, tristique id metus quis, rutrum luctus nunc. 
+            Ut hendrerit, justo eget mattis ornare, diam enim consequat mauris, eget consectetur orci purus eget nisl. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Nam lobortis turpis arcu, at sagittis diam gravida et. 
+            Praesent imperdiet erat nec nisi aliquet, in rhoncus turpis lacinia. Vivamus ac metus magna. 
+            Maecenas eu mattis tortor, id fermentum libero.
+        </p>
+
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">pegando a estrada</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis urna ipsum, vel congue neque maximus vel. 
+            Integer elementum sem sed odio suscipit ultrices et ut magna. 
+            Pellentesque a libero ac leo sollicitudin ullamcorper. 
+            Curabitur vitae pellentesque leo, in varius mi. Ut porttitor justo sit amet neque egestas, vel fermentum nisi euismod. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Sed ultrices dui tellus, et vestibulum odio molestie id. Nullam sem erat, tristique id metus quis, rutrum luctus nunc. 
+            Ut hendrerit, justo eget mattis ornare, diam enim consequat mauris, eget consectetur orci purus eget nisl. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Nam lobortis turpis arcu, at sagittis diam gravida et. 
+            Praesent imperdiet erat nec nisi aliquet, in rhoncus turpis lacinia. Vivamus ac metus magna. 
+            Maecenas eu mattis tortor, id fermentum libero.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis urna ipsum, vel congue neque maximus vel. 
+            Integer elementum sem sed odio suscipit ultrices et ut magna. 
+            Pellentesque a libero ac leo sollicitudin ullamcorper. 
+            Curabitur vitae pellentesque leo, in varius mi. Ut porttitor justo sit amet neque egestas, vel fermentum nisi euismod. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Sed ultrices dui tellus, et vestibulum odio molestie id. Nullam sem erat, tristique id metus quis, rutrum luctus nunc. 
+            Ut hendrerit, justo eget mattis ornare, diam enim consequat mauris, eget consectetur orci purus eget nisl. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Nam lobortis turpis arcu, at sagittis diam gravida et. 
+            Praesent imperdiet erat nec nisi aliquet, in rhoncus turpis lacinia. Vivamus ac metus magna. 
+            Maecenas eu mattis tortor, id fermentum libero.
+        </p>
+
+    </div>
+
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">pôr do sol</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis urna ipsum, vel congue neque maximus vel. 
+            Integer elementum sem sed odio suscipit ultrices et ut magna. 
+            Pellentesque a libero ac leo sollicitudin ullamcorper. 
+            Curabitur vitae pellentesque leo, in varius mi. Ut porttitor justo sit amet neque egestas, vel fermentum nisi euismod. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Sed ultrices dui tellus, et vestibulum odio molestie id. Nullam sem erat, tristique id metus quis, rutrum luctus nunc. 
+            Ut hendrerit, justo eget mattis ornare, diam enim consequat mauris, eget consectetur orci purus eget nisl. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Nam lobortis turpis arcu, at sagittis diam gravida et. 
+            Praesent imperdiet erat nec nisi aliquet, in rhoncus turpis lacinia. Vivamus ac metus magna. 
+            Maecenas eu mattis tortor, id fermentum libero.
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mattis urna ipsum, vel congue neque maximus vel. 
+            Integer elementum sem sed odio suscipit ultrices et ut magna. 
+            Pellentesque a libero ac leo sollicitudin ullamcorper. 
+            Curabitur vitae pellentesque leo, in varius mi. Ut porttitor justo sit amet neque egestas, vel fermentum nisi euismod. 
+            Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+            Sed ultrices dui tellus, et vestibulum odio molestie id. Nullam sem erat, tristique id metus quis, rutrum luctus nunc. 
+            Ut hendrerit, justo eget mattis ornare, diam enim consequat mauris, eget consectetur orci purus eget nisl. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+            Nam lobortis turpis arcu, at sagittis diam gravida et. 
+            Praesent imperdiet erat nec nisi aliquet, in rhoncus turpis lacinia. Vivamus ac metus magna. 
+            Maecenas eu mattis tortor, id fermentum libero.
+        </p>
+
+    </div>  
+
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">montanhas</span>
+        </div>
+    </div>
+
+</body>
+</html>
